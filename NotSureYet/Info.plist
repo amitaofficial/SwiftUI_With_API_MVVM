@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>APIKey</key>
-	<string>2b0059d4fc9986d49453b0ff88754421</string>
+	<string>$(APIKey)</string>
 	<key>EndpointURL</key>
 	<string>https://api.openweathermap.org/data/2.5/weather?</string>
 </dict>

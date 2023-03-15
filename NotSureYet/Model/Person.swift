@@ -11,7 +11,7 @@ import Foundation
 class Person : Identifiable {
     let id : Int
     var name : String
-    let city:String
+    var city:String
     let phNo : Int
     
     init(id: Int, name: String, city: String, phNo: Int) {

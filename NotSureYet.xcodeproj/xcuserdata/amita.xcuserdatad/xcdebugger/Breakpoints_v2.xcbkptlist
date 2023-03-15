@@ -3,4 +3,117 @@
    uuid = "7A1D555F-8DC8-480F-92F5-21B8C715EDF0"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A3E8A3C-3C8D-461C-ADD9-B86BE36BD11D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Views/PersonView/PersonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "899765DB-A2D7-4076-8D05-D6A7468488D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Views/PersonCityView/PersonCityView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D45AEEEC-6176-40B8-B107-B4E6D886B02D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Views/PersonView/PersonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74C6F40F-79BE-43C2-85E7-58D4FA6E0512"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Views/PersonCityView/PersonCityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "updateCityForPerson(person:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74C6F40F-79BE-43C2-85E7-58D4FA6E0512 - c434f359a97ad257"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NotSureYet.PersonCityViewModel.updateCityForPerson(person: NotSureYet.Person) -&gt; ()"
+                  moduleName = "NotSureYet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amita/Downloads/xcode/NotSureYet/NotSureYet/Views/PersonCityView/PersonCityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "74C6F40F-79BE-43C2-85E7-58D4FA6E0512 - c434f359a97ad257"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NotSureYet.PersonCityViewModel.updateCityForPerson(person: NotSureYet.Person) -&gt; ()"
+                  moduleName = "NotSureYet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amita/Downloads/xcode/NotSureYet/NotSureYet/Views/PersonCityView/PersonCityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "74C6F40F-79BE-43C2-85E7-58D4FA6E0512 - 9efbfb0b07ca2164"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (NotSureYet.Person) -&gt; Swift.Bool in NotSureYet.PersonCityViewModel.updateCityForPerson(person: NotSureYet.Person) -&gt; ()"
+                  moduleName = "NotSureYet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amita/Downloads/xcode/NotSureYet/NotSureYet/Views/PersonCityView/PersonCityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

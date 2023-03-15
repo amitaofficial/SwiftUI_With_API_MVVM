@@ -10,6 +10,9 @@ import Foundation
 class PersonViewModel : ObservableObject{
     
     @Published var person_weather : Double = 0.0
+    @Published var city : String = ""
+    
+    @Published var isPresented : Bool = false
     
     func getPersonWeather(person : Person){
         
@@ -48,5 +51,9 @@ class PersonViewModel : ObservableObject{
             }
         }
         task.resume()
+    }
+    
+    func didDismissPersonCityView(){
+        
     }
 }

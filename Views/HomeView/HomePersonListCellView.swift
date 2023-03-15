@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct HomePersonListCellView: View {
-    var person : Person
+    @State var person : Person
     var body: some View {
-        NavigationLink(destination: PersonView(person: person)){
+        NavigationLink(destination: PersonView(person: $person)){
             HStack(alignment:.center,spacing: 20){
                 Image(systemName: "person")
                 VStack(alignment: .leading,spacing: 10){

@@ -21,6 +21,9 @@
 		2846F7FA29C0FC4A00CA24FD /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846F7F929C0FC4A00CA24FD /* PersonViewModel.swift */; };
 		2846F7FC29C1003500CA24FD /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846F7FB29C1003500CA24FD /* ResponseModel.swift */; };
 		2846F80029C1144C00CA24FD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846F7FF29C1144C00CA24FD /* HomeViewModel.swift */; };
+		2846F80329C1185700CA24FD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2846F80229C1185700CA24FD /* .gitignore */; };
+		2846F80629C15DD900CA24FD /* PersonCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846F80529C15DD900CA24FD /* PersonCityView.swift */; };
+		2846F80929C160DE00CA24FD /* PersonCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846F80829C160DE00CA24FD /* PersonCityViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,10 @@
 		2846F7F929C0FC4A00CA24FD /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 		2846F7FB29C1003500CA24FD /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 		2846F7FF29C1144C00CA24FD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2846F80229C1185700CA24FD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2846F80429C14BC000CA24FD /* secret.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = secret.xcconfig; sourceTree = "<group>"; };
+		2846F80529C15DD900CA24FD /* PersonCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCityView.swift; sourceTree = "<group>"; };
+		2846F80829C160DE00CA24FD /* PersonCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCityViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,8 @@
 		2846F79A29BE8C5100CA24FD = {
 			isa = PBXGroup;
 			children = (
+				2846F80429C14BC000CA24FD /* secret.xcconfig */,
+				2846F80229C1185700CA24FD /* .gitignore */,
 				2846F80129C1167A00CA24FD /* Views */,
 				2846F7A529BE8C5100CA24FD /* NotSureYet */,
 				2846F7B629BE8C5100CA24FD /* NotSureYetTests */,
@@ -192,10 +201,20 @@
 		2846F80129C1167A00CA24FD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2846F80729C160B600CA24FD /* PersonCityView */,
 				2846F7FE29C113F800CA24FD /* HomeView */,
 				2846F7FD29C1131600CA24FD /* PersonView */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2846F80729C160B600CA24FD /* PersonCityView */ = {
+			isa = PBXGroup;
+			children = (
+				2846F80529C15DD900CA24FD /* PersonCityView.swift */,
+				2846F80829C160DE00CA24FD /* PersonCityViewModel.swift */,
+			);
+			path = PersonCityView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2846F7AE29BE8C5100CA24FD /* Preview Assets.xcassets in Resources */,
+				2846F80329C1185700CA24FD /* .gitignore in Resources */,
 				2846F7AB29BE8C5100CA24FD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,11 +351,13 @@
 				2846F7A929BE8C5100CA24FD /* HomeView.swift in Sources */,
 				2846F80029C1144C00CA24FD /* HomeViewModel.swift in Sources */,
 				2846F7D729BE99E800CA24FD /* HomePersonListCellView.swift in Sources */,
+				2846F80929C160DE00CA24FD /* PersonCityViewModel.swift in Sources */,
 				2846F7DA29BECFE800CA24FD /* SearchBar.swift in Sources */,
 				2846F7DC29C0309200CA24FD /* PersonView.swift in Sources */,
 				2846F7A729BE8C5100CA24FD /* NotSureYetApp.swift in Sources */,
 				2846F7D229BE90EF00CA24FD /* Person.swift in Sources */,
 				2846F7FC29C1003500CA24FD /* ResponseModel.swift in Sources */,
+				2846F80629C15DD900CA24FD /* PersonCityView.swift in Sources */,
 				2846F7FA29C0FC4A00CA24FD /* PersonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +397,7 @@
 /* Begin XCBuildConfiguration section */
 		2846F7C529BE8C5100CA24FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2846F80429C14BC000CA24FD /* secret.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -435,6 +458,7 @@
 		};
 		2846F7C629BE8C5100CA24FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2846F80429C14BC000CA24FD /* secret.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
